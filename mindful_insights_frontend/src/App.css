@@ -1,0 +1,497 @@
+.bi {
+  display: flex;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/*
+ * Sidebar
+ */
+
+ body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+
+main {
+  height: 908px;
+  height: -webkit-fill-available;
+  max-height: 100vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.dropdown-toggle { outline: 0; }
+
+.btn-toggle {
+  padding: .25rem .5rem;
+  font-weight: 600;
+  color: var(--bs-emphasis-color);
+  background-color: transparent;
+}
+.btn-toggle:hover,
+.btn-toggle:focus {
+  color: rgba(var(--bs-emphasis-color-rgb), .85);
+  background-color: var(--bs-tertiary-bg);
+}
+
+.btn-toggle::before {
+  width: 1.25em;
+  line-height: 0;
+  content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+  transition: transform .35s ease;
+  transform-origin: .5em 50%;
+}
+
+[data-bs-theme="dark"] .btn-toggle::before {
+  content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%28255,255,255,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+}
+
+.btn-toggle[aria-expanded="true"] {
+  color: rgba(var(--bs-emphasis-color-rgb), .85);
+}
+.btn-toggle[aria-expanded="true"]::before {
+  transform: rotate(90deg);
+}
+
+.btn-toggle-nav a {
+  padding: .1875rem .5rem;
+  margin-top: .125rem;
+  margin-left: 1.25rem;
+}
+.btn-toggle-nav a:hover,
+.btn-toggle-nav a:focus {
+  background-color: var(--bs-tertiary-bg);
+}
+
+.scrollarea {
+  overflow-y: auto;
+}
+
+@media (min-width: 768px) {
+  .sidebar .offcanvas-lg {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 48px;
+  }
+  .navbar-search {
+    display: block;
+  }
+}
+
+.sidebar .nav-link {
+  font-size: .875rem;
+  font-weight: 500;
+
+  &:hover{
+    color: white;
+  }
+}
+
+.sidebar .nav-link.active {
+  color: #2470dc;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+}
+/* menu css */
+
+.bg-body-menu{
+  background-color: #ffffff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.offcanvas-md .offcanvas-body{
+  margin-top: 30px;
+}
+
+.nav{
+  --bs-nav-link-padding-x: 1rem;
+  --bs-nav-link-padding-y: 1rem;
+}
+
+.nav-item{
+  height: 30%;
+  &:hover{
+    background-color: #0056b3;
+}
+}
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.mindfullink{
+  text-align: center;
+  padding-top: 26px;
+  font-weight: bold;
+  background-color: #478CCA;
+  height: 75px;
+}
+
+.profile-name{
+  margin-right: 30px;
+  margin-top: 0px;
+}
+
+.profile-name .icon{
+  width: 40px;
+  height: 30px;
+}
+
+.profile-name a{
+  text-decoration: nones;
+}
+
+.searchbar{
+  margin-top: 0;
+}
+.searchbar .input{
+  width: 1000px;
+}
+
+/* Dashboard */
+
+.dashboard-container {
+  background-color: #ffffff;
+  padding: 20px; 
+  height: 92vh; 
+  overflow-y: auto;
+}
+
+.my-cards-container{
+  padding-left: 0%;
+}
+
+.dashboard-card{
+  width: 80%;
+  height: 100%;
+}
+
+.dashb-card-text{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.card-number{
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
+.card-list{
+  padding-left: 55%;
+}
+
+.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+.container-fluid{
+  display: block;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  width: 100%; 
+}
+
+.row{
+  height: 100%;
+}
+.text-wrapper{
+  color: black;
+}
+
+/* Dashboard end */
+
+
+/* login css */
+.general-container {
+  background-image: url('/Users/drkst.mttr/Documents/projects/mindful_insights/mindful_insights_frontend/public/assets/images/login%20bg.PNG'); 
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-login-container {
+  background-color: #ffffff;
+  padding: 80px;
+  border-radius: 5px;
+  margin-left: 40%;
+  width: 500px;
+}
+
+.my-login-header {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.my-login-header h1 {
+  font-size: 24px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.my-login-form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+}
+
+.my-username-field,
+.my-password-field {
+  margin-bottom: 15px;
+}
+
+.my-username-field label,
+.my-password-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.my-username-field input,
+.my-password-field input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.my-checkbox-container {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 40px;
+  width: 150px;
+  margin-left: 195px;
+}
+
+.my-checkbox-container input[type="checkbox"] {
+  width: 40px;
+}
+
+.my-checkbox-container label{
+  padding-top: 5px;
+  font-weight: lighter;
+}
+
+button[type="submit"] {
+  background-color: #4079ED; 
+  color: #ffffff; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+  margin-left: 32%;
+  width: 40%;
+}
+
+button[type="submit"]:hover {
+  background-color: #6CAFFF; 
+}
+
+.my-forgot-password {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.my-forgot-password a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.my-forgot-password a:hover {
+  color: #4079ED;
+  text-decoration: none;
+}
+
+
+.my-sign-up {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.my-sign-up p {
+  margin-bottom: 5px;
+  color: #aaa;
+}
+
+.my-sign-up a {
+  font-size: 24px;
+  color: #3b5998;
+}
+
+/* login css end */
+
+
+
+/*chart css*/
+.chart-container {
+  max-width: 800px;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.bar {
+  width: calc(100% / 12 - 10px);
+  background-color: #007bff;
+  position: relative;
+  transition: height 0.5s;
+}
+
+.bar::before {
+  content: attr(data-name);
+  position: absolute;
+  bottom: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bar:hover {
+  background-color: #0056b3;
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.legend-item:nth-child(1) .legend-color {
+  background-color: #007bff;
+}
+
+.legend-item:nth-child(2) .legend-color {
+  background-color: #28a745;
+}
+
+/* Collaboration css */
+.Collaboration-container { 
+  display: flex;
+  flex-wrap: space-between;
+  justify-content: start;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+  padding: 2% 0 0 2%;
+  margin-bottom: 10%;
+  margin-top: 2%;
+}
+
+button.filter-find-button {
+  background-color: #0074CC;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 2%;
+  margin-left: 2px;
+  width: 15%;
+}
+
+button.filter-find-button:hover {
+  background-color: #21537a;
+}
+
+.icon-link {
+  margin-top: 2%;
+}
+
+.col-md-6 {
+  width: 50%;
+  height: 33%;
+}
+
+.result-collab{
+  height: 90px;
+}
+
+/*PB research */
+.PB-container { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2%;
+  margin-bottom: 1%;
+}
+
+.img-container {
+  background-image: url('/Users/drkst.mttr/Documents/projects/mindful_insights/mindful_insights_frontend/public/assets/images/image1.png'); 
+  background-size:cover; 
+  background-position: center;
+  height: 200px;  
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 25%;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 5%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.text-content {
+  width: 100%;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.img-description {
+  color: #ccc;
+  font-weight: lighter;
+}
+
+/* Messaging css */
+
+
+/* create model */
+

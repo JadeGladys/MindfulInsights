@@ -1,0 +1,9 @@
+main {
+    height: 908px;
+    height: -webkit-fill-available;
+    max-height: 100vh;
+    display: block;
+    unicode-bidi: isolate;
+    /* overflow-x: auto;
+    overflow-y: auto; */
+}

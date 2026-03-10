@@ -1,0 +1,153 @@
+/* workspace css */
+.main-workspace-container { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .h4-text-wrapper{
+    color: black;
+    margin-top: 2%;
+    font-size: 15px;
+    font-weight: bold;
+  
+  }
+  
+  .progress-stacked{
+    margin-top: 0%;
+  }
+  
+  .create-container { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:end;
+    padding: 2%;
+    margin-bottom: 1%;
+  }
+  
+  .create-btn{
+    margin-right: 1.5%;
+    background-color: #0074CC;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .icon-create{
+    margin-right: 10px;  
+  }
+  
+  .workspace-container {
+    display: block;
+    width: 25%;
+    background-color: #DBF0FF;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 0;
+  }
+  
+  .summary-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    padding-bottom: 1%;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    padding: 30px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8be0098;
+    border: 1px solid #f8be0091;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px; 
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin-bottom: 25px;
+  }
+  
+  .definition {
+    margin-bottom: 25px;
+  }
+  
+  .definition-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .definition-text {
+    font-size: 0.7rem;
+    line-height: 1.5;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 1px;
+  }
+  
+  .research-btn{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #0074CC;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #7FB2F0;
+    --bs-btn-active-border-color: #0074CC;
+  }
+  
+  .tb-style{
+    margin-top: 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 55%;
+  } 
+  
+  .icon-collection{
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .icon-box{
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    background-color: #319F43;
+    color: #ffffff;
+  }
+
+  .cardsubmitbutton{
+    justify-content:space-between;
+    display: flex;
+    margin-top: 20px;
+
+    .btn{
+        margin-right: 10px;
+        background-color: #319F43;
+
+        &:hover{
+            background-color: #174b20;
+        }
+    }
+  }
