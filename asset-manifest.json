@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MindfulInsights/static/css/main.3861e47e.css",
-    "main.js": "/MindfulInsights/static/js/main.c4003699.js",
+    "main.js": "/MindfulInsights/static/js/main.5c924fb1.js",
     "static/js/498.0f919e81.chunk.js": "/MindfulInsights/static/js/498.0f919e81.chunk.js",
     "static/js/703.82bb7c9b.chunk.js": "/MindfulInsights/static/js/703.82bb7c9b.chunk.js",
     "static/js/513.cb2bd969.chunk.js": "/MindfulInsights/static/js/513.cb2bd969.chunk.js",
@@ -9,13 +9,13 @@
     "static/media/login bg.PNG": "/MindfulInsights/static/media/login bg.d6589418b8fc95f6a69e.PNG",
     "index.html": "/MindfulInsights/index.html",
     "main.3861e47e.css.map": "/MindfulInsights/static/css/main.3861e47e.css.map",
-    "main.c4003699.js.map": "/MindfulInsights/static/js/main.c4003699.js.map",
+    "main.5c924fb1.js.map": "/MindfulInsights/static/js/main.5c924fb1.js.map",
     "498.0f919e81.chunk.js.map": "/MindfulInsights/static/js/498.0f919e81.chunk.js.map",
     "703.82bb7c9b.chunk.js.map": "/MindfulInsights/static/js/703.82bb7c9b.chunk.js.map",
     "513.cb2bd969.chunk.js.map": "/MindfulInsights/static/js/513.cb2bd969.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3861e47e.css",
-    "static/js/main.c4003699.js"
+    "static/js/main.5c924fb1.js"
   ]
 }
