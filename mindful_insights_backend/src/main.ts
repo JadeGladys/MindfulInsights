@@ -16,12 +16,12 @@ async function bootstrap() {
 
   // Enable CORS with credentials
   app.enableCors({
-    origin: 'http://localhost:3001',
+    origin: 'https://drkst.mttr.github.io',
     credentials: true,
   });
   const config = new DocumentBuilder()
     .setTitle('Cats example')
-    
+
     .setDescription('The cats API description')
     .setVersion('1.0')
     .addTag('cats')

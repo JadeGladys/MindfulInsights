@@ -3,7 +3,7 @@ import './App.css';
 import './css/chatStyle.css'
 import './css/tasks.css'
 import Dashboard from './Pages/Dashboard';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Tasks from './Pages/Tasks';
 import Register from './Pages/register';
 import Login from './Pages/login';

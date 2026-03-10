@@ -2,6 +2,7 @@
   "name": "mindful_insights_frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://drkst.mttr.github.io/MindfulInsights",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -55,7 +56,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -78,6 +81,7 @@
   "devDependencies": {
     "@types/jquery": "^3.5.30",
     "@types/js-cookie": "^3.0.6",
-    "@types/mathjs": "^9.4.2"
+    "@types/mathjs": "^9.4.2",
+    "gh-pages": "^6.3.0"
   }
 }
