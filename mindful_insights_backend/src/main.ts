@@ -16,7 +16,7 @@ async function bootstrap() {
 
   // Enable CORS with credentials
   app.enableCors({
-    origin: 'https://drkst.mttr.github.io',
+    origin: 'https://mindfulinsights-frontend.onrender.com',
     credentials: true,
   });
   const config = new DocumentBuilder()
