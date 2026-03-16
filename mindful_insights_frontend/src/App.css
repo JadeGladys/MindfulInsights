@@ -455,7 +455,7 @@ button.filter-find-button:hover {
 }
 
 .img-container {
-  background-image: url('/Users/drkst.mttr/Documents/projects/mindful_insights/mindful_insights_frontend/public/assets/images/image1.png'); 
+  background-image: url('./assets/images/image1.png'); 
   background-size:cover; 
   background-position: center;
   height: 200px;  

@@ -1,4 +1,5 @@
 import React from 'react'
+import image1 from '../../assets/images/image1.png'
 
 const Chats = () => {
   return (
@@ -11,7 +12,7 @@ const Chats = () => {
         </div>
       </div>
       <div className="userChat">
-        <img src={`${process.env.PUBLIC_URL}/assets/images/image1.png`} alt="" />
+        <img src={image1} alt="" />
         <div className="userChatInfo">
           <span>Jane</span>
           <p>Hello???</p>
